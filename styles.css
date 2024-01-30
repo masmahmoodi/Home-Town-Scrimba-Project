@@ -103,7 +103,7 @@
 
 .dis{
     margin: 20px 10px 0px 10px;
-    background-color:antiquewhite;
+    background-color:#E5E1DA;
     width:300px;
     height: 200px;
     display: flex;
@@ -163,7 +163,7 @@ b{
     color:black;
     width: 100%;
     height: 400px;
-    background-color: rgb(90, 92, 49);
+    background-color: #E5E1DA;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,27 +178,20 @@ b{
     border-radius: 50%;
 }
 .king{
-    background-color: rgba(81, 84, 44, 0.749);
+    background-color: #EEEDEB;
     width: 400px;
     height: 150px;
     display: flex;
     flex-direction: column;
     margin: 10px 40px 10px 0px;
     padding: 10px;
-    box-shadow: 0px 0px 10px rgb(216, 216, 216);
+    box-shadow: 0px 0px 10px gray;
 
 }
 
 .king h4 {
     color: burlywood;
 }
-/* .somthing{
-    width: 100%;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 
 
