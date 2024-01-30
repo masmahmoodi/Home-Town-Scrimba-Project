@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-image:url('images/nasim-dadfar-P28_NVphFFU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+
+.header h3,h1{
+    background-color: #f6af3670;
+}
+.header h1{
+   margin-bottom: 10px;
+}
+.province{
+    width: 100%;
+    height: 300px;
+    background-color: #1f2937;
+    
+}
+.province h3{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+
+}
+.province-imgs div img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%
+}
+
+.province-imgs  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+.province-imgs div {
+    margin:50px  120px 10px 0px ;
+}
+
+.relate-to-province {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-txt{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-txt h5{
+   margin-top: 10px;
+}
+
+.district{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.row-1 h3{
+    color: black;
+}
+
+.row-1{
+    margin-bottom: 50px;
+}
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dis{
+    margin: 20px 10px 0px 10px;
+    background-color:antiquewhite;
+    width:300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     box-shadow: 0px 0px 30px gray;
+}
+
+.dis img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%
+}
+
+.about-me{
+    width: 100%;
+    height: 400px;
+   background-color: rgb(105, 105, 105);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.porfile-img img{
+    margin-left: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+.profile{
+    width: 450px;
+    height:300px;
+    background-color: rgba(1, 1, 1, 0.164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(216, 216, 216);
+}
+.profile h2{    
+    margin-bottom:20px;
+}
+.porfile-desc{
+    color: white;
+    margin:0px 0px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+
+
+b{
+    margin: 30px 0px 0px 35px;
+}
+.related-to-kings{
+    color:black;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(90, 92, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-1{
+    display: flex;
+}
+ .king img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.king{
+    background-color: rgba(81, 84, 44, 0.749);
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 40px 10px 0px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(216, 216, 216);
+
+}
+
+.king h4 {
+    color: burlywood;
+}
+/* .somthing{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+
+
